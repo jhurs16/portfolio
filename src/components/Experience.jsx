@@ -18,9 +18,19 @@ const Experience = ({expref}) => {
                             <div className="icon">
                                 <i className="icofont-briefcase-1"></i>
                             </div>
-                            <span className="time open-sans-font text-uppercase">2021 - 2023</span>
+                            <span className="time open-sans-font text-uppercase">2021 - 2022</span>
                             <h5 className="poppins-font text-uppercase">Software Developer <span className="place open-sans-font">IFORMATLOGIC SOLUTIONS</span></h5>
                             <p className="open-sans-font">Worked as a Python Developer in an ERP system called FLECTA CMS. My tasks is to debug high to low level bugs that are detected by QA and reportedly by the users. Also worked on enhancing and improving the UI and logic of the websites. </p>
+                        </li>
+                        <li>
+                            <div className="icon">
+                                <i className="icofont-briefcase-1"></i>
+                            </div>
+                            <span className="time open-sans-font text-uppercase">2022 - 2023</span>
+                            <h5 className="poppins-font text-uppercase">Junior Software Engineer<span className="place open-sans-font">INFOSHIFT INC.</span></h5>
+                            <p className="open-sans-font">
+                                Worked on ERPNext CMS for human resource management system. Worked on customization of frontend and backend tasks.  
+                            </p>
                         </li>
                         <li>
                             <div className="icon">

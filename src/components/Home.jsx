@@ -23,7 +23,7 @@ const Home = () => {
     
   return (
     <div className="container" > 
-		<button id="button"><i className="icofont-rounded-up"></i></button>
+		{/* <button id="button"><i className="icofont-rounded-up"></i></button> */}
 		 {/* header */}
          <Header 
          data={scrollToSection} 
