@@ -5,7 +5,7 @@ import './styles/icofont/icofont.min.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className='main-con'>
       <HashRouter>
         <Routes>
           <Route path="/" element={<Home/>}/>

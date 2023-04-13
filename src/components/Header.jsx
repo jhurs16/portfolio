@@ -1,5 +1,5 @@
 
-
+// import { motion } from "framer-motion"
 const Header = ({data, data2, ab, ab1, ms, ms1, exp, exp1, por, por1, cont, cont1}) => {
 const clicKME = () =>  data(data2)
 const clicKMEabout = () =>  ab(ab1)
@@ -8,7 +8,10 @@ const clicKMEexp = () =>  exp(exp1)
 const clicKMEPort = () =>  por(por1)
 const clicKMECont = () =>  cont(cont1)
   return (
-    <header className="header " id="navbar-collapse-toggle navbar">
+    
+    <header className="header " id="navbar-collapse-toggle navbar"
+    
+    >
    {/* <!-- Fixed Navigation Starts --> */}
     <ul className="icon-menu d-none d-sm-block revealator-slideup revealator-once revealator-delay1 navbar" id="navbar">
         <li className="icon-box home" onClick={clicKME} >

@@ -18,8 +18,8 @@ const About = ({aboutref}) => {
     <div className="row py-2">
       <div className="col-lg-10 col-md-10 mx-auto ">
         
-        <p className="lead text-body-secondary text-wrap">
-            To become a Web Developer and learn it from scratch I risk and take my second course BS Info Tech for 4 years. My first course was not an IT related which is BS in Industrial Technology it is on designing a house or buildings, that time I dont know what my passion is, but I realized it when I was on my third year but I cant shift to Info Tech so I continue and finished my first course. After that, I worked for almost 2 years in Supermarkets to prepare and earn money for my equipment (mediums) and expenses in my school because I decided to pursue my passion in BS in Info Tech and become a programmer. After 4 years I worked as a Software Developer / Web Developer / Junior Software Engineer and learn new things on the technology today.
+        <p className="text-justify lead text-body-secondary ">
+        I love learning new things and technology. I am a fast learner, self-motivated, hard working person and open minded developer. I love different challenges and solving different level of bugs and problems. To become a Web Developer and learn it from scratch I risk and take my second course BS Info Tech for 4 years. My first course was not an IT related which is BS in Industrial Technology it is on designing a house or buildings, that time I dont know what my passion is, but I realized it when I was on my third year but I cant shift to Info Tech so I continue and finished my first course. After that, I worked for almost 2 years in Supermarkets to prepare and earn money for my equipment (mediums) and expenses in my school because I decided to pursue my passion in BS in Info Tech and become a programmer. After 4 years I worked as a Software Developer / Web Developer / Junior Software Engineer and learn new things on the technology today.
         </p>
       </div>
     </div>

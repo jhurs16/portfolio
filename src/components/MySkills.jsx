@@ -7,22 +7,35 @@ import Stcomp from '../lib/styled.png'
 import JSlogo from '../lib/jslogo.png'
 import Flogo from '../lib/flectra2.png'
 import Gtlogo from '../lib/gitlogo.png'
-import Tanstcklogo from '../lib/tanstack.png'
-import Chakralogo from '../lib/chakraui.png'
+// import Tanstcklogo from '../lib/tanstack.png'
+// import Chakralogo from '../lib/chakraui.png'
 import Pylogo from '../lib/pylogo.png'
 import Djangologo from '../lib/djangologo.png'
 import Djangorestlogo from '../lib/djangorest.png'
 import FigmaLogo from '../lib/figmalogo.png'
 import ErpnextLogo from '../lib/erpnext-logo.png'
-import RouterReact from '../lib/react-router-dom.png'
+// import RouterReact from '../lib/react-router-dom.png'
 import Gitlogo from '../lib/github.png'
-import Surge from '../lib/surge.png'
-import Vitelogo from '../lib/vitelogo.png'
-import Swagger from '../lib/swagger.png'
+// import Surge from '../lib/surge.png'
+// import Vitelogo from '../lib/vitelogo.png'
+// import Swagger from '../lib/swagger.png'
 import Skills from '../lib/skills.png'
 const iconslist = [
-
-    IconReact, HtmlIcon,Css3,Postgres,Boots,Stcomp,JSlogo, Pylogo,Flogo,Gtlogo,Tanstcklogo,Chakralogo,Djangologo,Djangorestlogo, FigmaLogo,ErpnextLogo,RouterReact, Surge,Gitlogo,Vitelogo, Swagger
+    {icon: IconReact, name: "React"},
+    {icon: HtmlIcon, name: "HTML5"},
+    {icon: Css3, name: "CSS3"},
+    {icon: Postgres, name: "PostGreSQL"},
+    {icon: Boots, name: "BootStrap"},
+    {icon: Stcomp, name: "Styled Components"},
+    {icon: JSlogo, name: "JavaScript"},
+    {icon: Pylogo, name: "Python"},
+    {icon: Flogo, name: "Flectra"},
+    {icon: Gtlogo, name: "Git"},
+    {icon: Djangologo, name: "Python Django"},
+    {icon: Djangorestlogo, name: "Django RestFramework"},
+    {icon: FigmaLogo, name: "Figma"},
+    {icon: ErpnextLogo, name: "ERPNext"},
+    {icon: Gitlogo, name: "GitHub"}
 ]
 const MySkills = ({myskillsref}) => {
   return (
@@ -38,10 +51,10 @@ const MySkills = ({myskillsref}) => {
             </div>
             {
                 iconslist.map((val)=>(
-                    <div key={val} className="d-flex justify-content-center align-items-center flex-column col-6 col-md-3 mb-3 mb-sm-5 ">
-                    <img src={val} alt={val} style={{maxWidth: '100px'}} />
-        
-                </div>
+                    <div key={val.icon} className="d-flex justify-content-center align-items-center flex-column col-6 col-md-3 mb-3 mb-sm-5 ">
+                    <img src={val.icon} alt={val.icon} style={{maxWidth: '90px'}} />
+                    <p className='pt-2'>{val.name}</p>
+                    </div>
                 ))
             }
           
