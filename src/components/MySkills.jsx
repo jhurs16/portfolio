@@ -39,7 +39,7 @@ const iconslist = [
 ]
 const MySkills = ({myskillsref}) => {
   return (
-    <div className="row exp" ref={myskillsref}>
+    <div className="row exp " ref={myskillsref} >
             
             <div className="d-flex align-items-center p-3 my-3 text-white rounded shadow-sm theme-color-border">
                 <img className="me-3" src={Skills} alt={Skills} style={{maxWidth:"40px"}}/>
@@ -49,6 +49,7 @@ const MySkills = ({myskillsref}) => {
                 {/* <small>Since 2011</small> */}
                 </div>
             </div>
+            
             {
                 iconslist.map((val)=>(
                     <div key={val.icon} className="d-flex justify-content-center align-items-center flex-column col-6 col-md-3 mb-3 mb-sm-5 ">

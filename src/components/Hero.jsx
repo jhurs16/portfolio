@@ -28,7 +28,7 @@ const Hero = ({homeref, clickAbout, abb}) => {
 
 
 			<div className="col-lg-4 bg d-none d-lg-block ">
-				<motion.img src={MyImage} className="img-fluid" style={{maxWidth: '350px'}} alt={MyImage}
+				<motion.img src={MyImage} className="img-fluid rounded" style={{maxWidth: '350px'}} alt={MyImage}
 					variants={imgVariants}
 					initial="hidden"
 					animate="visible"
@@ -44,8 +44,8 @@ const Hero = ({homeref, clickAbout, abb}) => {
 					initial={{opacity: 0}}
 					animate={{opacity: 1}}
 					transition={{ ease: "easeOut", duration: 1.3 }}
-				>I am a Web Developer who loved building web applications and fixing bugs. I have 1 year of experienced as a Software Developer who worked on backend and frontend task in an ERP system called FLECTRA ERP/CRM. I have also experienced, as a Software Engineer that worked on ERP system called ERPNext. I trained myself in BootCamp at SkillShare for almost 2 months to learn REACT, styled components, Chakra UI, Vite and TanStack Query. I also learned Django and Django RestFramework by following the tutorials in udemy resources and create projects.</motion.p>
-                <motion.button className="btn btn-primary" onClick={clickHere}
+				>I am a Web Developer who loved building web applications and fixing bugs. I have 1 year of experienced as a Software Developer who worked on backend and frontend task in an ERP system called FLECTRA ERP/CRM. I have also experienced, as a Software Engineer that worked on ERP system called ERPNext. </motion.p>
+                <motion.button className="btn btn-primary mt-5" onClick={clickHere}
 					initial={{x: '50vw'}}
 					animate={{x: 0}}
 					whileHover={{scale: 1.1}}
