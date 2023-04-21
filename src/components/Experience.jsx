@@ -20,7 +20,7 @@ const Experience = ({expref}) => {
                             </div>
                             <span className="time open-sans-font text-uppercase">2021 - 2022</span>
                             <h5 className="poppins-font text-uppercase">Software Developer <span className="place open-sans-font">IFORMATLOGIC SOLUTIONS</span></h5>
-                            <p className="open-sans-font">Worked as a Python Developer in an ERP system called FLECTRA CMS. My tasks is to debug high to low level bugs that are detected by QA and reportedly by the users. Also worked on enhancing and improving the UI and logic of the websites. </p>
+                            <p className="open-sans-font">Worked as a Python Developer in an ERP system called FLECTRA CMS. My tasks is to debug from higher to lower level bugs that are detected by QA and reportedly by the users. Also worked on enhancing and improving the UI and logic of the websites. </p>
                         </li>
                         <li>
                             <div className="icon">

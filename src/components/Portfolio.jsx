@@ -20,7 +20,9 @@ import Djangologo from '../lib/djangologo.png'
 import Djangorestlogo from '../lib/djangorest.png'
 import Swagger from '../lib/swagger.png'
 import Portf from '../lib/portfolioo.png'
-
+import Shofy from '../lib/personal/shofy-clone.png'
+import ReduxLogo from '../lib/Redux.png'
+import Bts from '../lib/boots.png'
 const ToolsComponent = ({icon}) => {
     return (
         <div className="p-2">
@@ -140,7 +142,22 @@ const Portfolio = ({portref}) => {
                     <a href="https://jhurs16.github.io/anime-lists-with-gogoanimeapi/" target='_blank' rel='noreferrer' className="btn btn-primary btn-sm mt-2">View Live</a>
                 </div>
             </div>
-			<div className="card p-0 mx-4 my-3 shadow-lg rounded" style={{width: '20rem'}}>
+			
+			   
+				  
+				    
+			  </div>	
+		</div>
+        <div className="container bg-light">
+            <div className="col-12">
+       
+       <h3 className="alert text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">
+        MY PERSONAL FULLSTACK PROJECTS
+       </h3>
+   </div>
+   
+			  <div className="row img-gal mb-4  d-flex align-item-center justify-content-center ">
+              <div className="card p-0 mx-4 my-3 shadow-lg rounded" style={{width: '20rem'}}>
                 <img src={SocialChefClone} className="card-img-top img-fluid" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title">Social Chef Home Page Clone</h5>
@@ -165,10 +182,40 @@ const Portfolio = ({portref}) => {
                     <a href="https://jhurs16.github.io/socialchef-clone-homepage/" target='_blank' rel='noreferrer' className="btn btn-primary btn-sm mt-2">View Live</a>
                 </div>
             </div>
+              <div className="card p-0 mx-4 my-3 shadow-lg rounded" style={{width: '20rem'}}>
+                <img src={Shofy} className="card-img-top img-fluid" alt="..."/>
+                <div className="card-body">
+                    <h5 className="card-title">Ecommerce: Shofy Clone (Full functional) </h5>
+                    <p className="card-text">Ecommerce Shofy is an HTML and CSS template in themeforest. I clone it using the frontend and backend technology as a fullstack. I convert it in full functional website with payment PAYPAL.I build my own API using Python Django Restframework to use in this project.It is still in progress and I will deploy it sooner.</p>
+                    <p>Tools used: </p>
+                    <div className="d-flex flex-wrap">
+                   <ToolsComponent icon={IconReact}/>
+                   <ToolsComponent icon={ReduxLogo}/>
+                   <ToolsComponent icon={Bts}/>
+                   <ToolsComponent icon={HtmlIcon}/>
+                   <ToolsComponent icon={Css3}/>
+                    <ToolsComponent icon={Gitlogo}/>
+                   <ToolsComponent icon={JSlogo}/>
+                
+                   <ToolsComponent icon={RouterReact}/>
+                  
+                   <ToolsComponent icon={Pylogo}/>
+                   <ToolsComponent icon={Djangologo}/>
+                   <ToolsComponent icon={Djangorestlogo}/>
+                   <ToolsComponent icon={Swagger}/>
+                   
+                    </div>
+                    {/* <a href="http://jhurs-tictactoe-vite-react.surge.sh/" target='_blank' rel='noreferrer' className="btn btn-primary btn-sm mt-2">In Progress</a> */}
+                    <button className="btn btn-primary btn-sm mt-2" disabled>In Progress</button>
+                </div>
+            </div>
+         
+			
 			   
 				  
 				    
 			  </div>	
+              
 		</div>
    
 </div>

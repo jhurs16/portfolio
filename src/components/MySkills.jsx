@@ -16,12 +16,14 @@ import FigmaLogo from '../lib/figmalogo.png'
 import ErpnextLogo from '../lib/erpnext-logo.png'
 // import RouterReact from '../lib/react-router-dom.png'
 import Gitlogo from '../lib/github.png'
+import ReduxLogo from '../lib/Redux.png'
 // import Surge from '../lib/surge.png'
 // import Vitelogo from '../lib/vitelogo.png'
 // import Swagger from '../lib/swagger.png'
 import Skills from '../lib/skills.png'
 const iconslist = [
     {icon: IconReact, name: "React"},
+    {icon: ReduxLogo, name: "Redux"},
     {icon: HtmlIcon, name: "HTML5"},
     {icon: Css3, name: "CSS3"},
     {icon: Postgres, name: "PostGreSQL"},
