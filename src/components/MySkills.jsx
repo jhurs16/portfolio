@@ -42,10 +42,13 @@ const iconslist = [
 ]
 const MySkills = ({myskillsref}) => {
   return (
-    <div className="row py-5 exp " ref={myskillsref} >
-            
+    // <section className="con-myskills"  style={{height: "100vh"}}>
+    
+    <section className="row py-5" ref={myskillsref}>
+           
         {/* <div className="col-12 d-flex align-items-center about-row"></div>
         <div className='container text-center py-5 con-about'></div> */}
+      
         <div className="text-center">
             <div className='mx-auto'>
             <img src={Skilss} alt={Skilss} style={{maxWidth:"60px"}}/>
@@ -53,18 +56,20 @@ const MySkills = ({myskillsref}) => {
             <div className="line-about my-3"></div>
           </div>
           </div>
+          
             {
                 iconslist.map((val)=>(
                     <div key={val.icon} className="d-flex justify-content-center align-items-center flex-column col-6 col-md-3 mb-3 mb-sm-5 shadow-sm ">
                     <img src={val.icon} alt={val.icon} style={{maxWidth: '85px'}} />
                     <p className='pt-2 fw-bold'>{val.name}</p>
-                    {/* <div class="loader"></div> */}
+                    
                     </div>
                 ))
             }
-          
-            
-        </div>
+         
+  
+        </section>
+        // </section>
   )
 }
 

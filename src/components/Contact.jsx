@@ -17,16 +17,8 @@ export const ContactUs = () => {
   };
 
   return (
-    // <form ref={form} onSubmit={sendEmail}>
-    //   <label>Name</label>
-    //   <input type="text" name="user_name" />
-    //   <label>Email</label>
-    //   <input type="email" name="user_email" />
-    //   <label>Message</label>
-    //   <textarea name="message" />
-    //   <input type="submit" value="Send" />
-    // </form>
-     <form className="contactform" ref={form} onSubmit={sendEmail}>
+
+     <form className="contactform mt-2" ref={form} onSubmit={sendEmail}>
         <div className="mb-4">
       
       <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Name" name="user_name"/>

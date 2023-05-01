@@ -4,7 +4,7 @@ import Meow from '../lib/squaress.png'
 const About = ({aboutref}) => {
   return (
    
-        <section className="row " ref={aboutref}>
+      <div className="row" ref={aboutref} >
 
       <div className="col-12 d-flex align-items-center about-row">
         <div className='container text-center py-5 con-about'>
@@ -19,15 +19,11 @@ const About = ({aboutref}) => {
         
         </div>
         
-        {/* <p className="text-justify lead text-body-secondary fw-normal-lg fw-normal-sm">
-        I love learning new things and technology. I am a fast learner, self-motivated, hard working person and open minded developer. I love different challenges and solving different level of bugs and problems. I have been involved in production, testing, agile development and JIRA. I trained myself in BootCamp at SkillShare for almost 2 months to learn REACT JS, styled components, Chakra UI, Vite and TanStack Query. I also learned Django and Django RestFramework by following the tutorials in udemy resources and created different projects. I think one of my key strengths is my curiosity and my ability to adapt and learn new things quickly. I am very excited about the industry and I am looking for a company where can I continue improving my skills and growing.
-        </p> */}
-        
       
     
   </div>
         
-  </section>
+  </div>
 
   )
 }

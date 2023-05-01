@@ -27,7 +27,7 @@ jhurs css portfolio @ 2021
 	}
   
   .about-row{
-    height: 100vh;
+    
     background-image: url('../lib/green.png');
     background-repeat: no-repeat;
     
@@ -519,6 +519,9 @@ header {
 
   .contact-us .custom-title{
     margin-top: 30px;
+  }
+  .con-myskills{
+    height: 100vh;
   }
   .home-container{
     height: 100vh;
