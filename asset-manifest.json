@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f9ebedc7.css",
-    "main.js": "/portfolio/static/js/main.d537f817.js",
+    "main.css": "/portfolio/static/css/main.71bf99ef.css",
+    "main.js": "/portfolio/static/js/main.af8bc514.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/anime-api.png": "/portfolio/static/media/anime-api.4d0786680615a286d0e0.png",
     "static/media/mp.png": "/portfolio/static/media/mp.a2ee04a319e34fe00832.png",
@@ -11,9 +11,12 @@
     "static/media/box-office.png": "/portfolio/static/media/box-office.dbcb96a3d3d91a39be87.png",
     "static/media/icofont.woff2": "/portfolio/static/media/icofont.9c33516aab48c61e3081.woff2",
     "static/media/my-image.png": "/portfolio/static/media/my-image.cbdcd552acddf3d2061c.png",
+    "static/media/squaress.png": "/portfolio/static/media/squaress.213fd2a8a6d12e7daad1.png",
+    "static/media/green.png": "/portfolio/static/media/green.5eb6c501dd38266dafa0.png",
     "static/media/shofy-clone.png": "/portfolio/static/media/shofy-clone.bcccff0fb02bd96ab539.png",
     "static/media/erpnext-ss.png": "/portfolio/static/media/erpnext-ss.15c3cfd7977863769a31.png",
     "static/media/flectra-ss.png": "/portfolio/static/media/flectra-ss.e1eaf590e1c5e5d3c430.png",
+    "static/media/html5_logo.png": "/portfolio/static/media/html5_logo.4de5d2224c60b7fbde73.png",
     "static/media/vitelogo.png": "/portfolio/static/media/vitelogo.83fc56296fdfb132d352.png",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/media/tictactoe.png": "/portfolio/static/media/tictactoe.afca04dd4e5c554d1989.png",
@@ -25,12 +28,12 @@
     "static/media/Redux.png": "/portfolio/static/media/Redux.543b98d3c75b48613322.png",
     "static/media/postgresql.png": "/portfolio/static/media/postgresql.d8dc9250265f107f1b01.png",
     "index.html": "/portfolio/index.html",
-    "main.f9ebedc7.css.map": "/portfolio/static/css/main.f9ebedc7.css.map",
-    "main.d537f817.js.map": "/portfolio/static/js/main.d537f817.js.map",
+    "main.71bf99ef.css.map": "/portfolio/static/css/main.71bf99ef.css.map",
+    "main.af8bc514.js.map": "/portfolio/static/js/main.af8bc514.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9ebedc7.css",
-    "static/js/main.d537f817.js"
+    "static/css/main.71bf99ef.css",
+    "static/js/main.af8bc514.js"
   ]
 }
