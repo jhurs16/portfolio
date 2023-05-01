@@ -8,21 +8,59 @@ jhurs css portfolio @ 2021
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+  font-family: 'Poppins', sans-serif !important;
 	}
 
 	html{
 		scroll-behavior: smooth;
-
+    font-family: 'Poppins', sans-serif !important;
+    
 	}
 
 	body{
-		
+		/* background: rgb(2,6,23); */
 		
 		overflow-x: hidden;
     margin: 0 auto;
 		/*background: #555;*/
 
 	}
+  
+  .about-row{
+    height: 100vh;
+    background-image: url('../lib/green.png');
+    background-repeat: no-repeat;
+    
+    background-position: center;
+  }
+  .about-row .con-about {
+    background-color: rgb(240, 240, 240, 0.2);
+  }
+  .text-hero{
+    font-weight: bolder;
+  }
+  .line-about{
+    width: 180px;
+    height: 5px;
+    background: #42b2dd;
+    margin: auto;
+  }
+  .line-educ{
+    width: 300px;
+    height: 5px;
+    background: #42b2dd;
+    margin: auto;
+  }
+  .line-educ2{
+    width: 80%;
+    height: 5px;
+    background: #42b2dd;
+    margin: auto;
+  }
+  .text-about {
+    text-indent: 50px;
+    text-align: justify !important;
+  }
   .main-con {
     /* background: #1f1f1f;
     color: #fff; */
@@ -188,8 +226,12 @@ jhurs css portfolio @ 2021
     transition: 0.5s;
 
   }
-	.home-container .bg img{
-        margin-top: 100px;
+	.home-container .bg{
+        /* margin-top: 100px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
 	}
 	.home-container .home-details div{
 		  max-width: 450px;
@@ -951,7 +993,9 @@ header {
 .header ul.icon-menu li.icon-box {
     background-color: #eee;
   }
-
+.home-container .bg{
+  display: flex;
+}
  .header ul.icon-menu li.icon-box i {
     color: #666;
   }
@@ -1605,7 +1649,14 @@ header {
   margin: 18px 0 10px;
   color: #444;
 }
-
+/* .home-container .img-cons{
+  display: flex;
+  align-items: center;
+  
+}
+.home-container .img-cons img{
+  align-self: auto;
+} */
 .home .home-details h1 span {
   color: #2eb7ef;
   font-weight: 600;

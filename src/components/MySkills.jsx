@@ -1,5 +1,5 @@
 import IconReact from '../lib/react.png'
-import HtmlIcon from '../lib/html5.png'
+import HtmlIcon from '../lib/html5_logo.png'
 import Css3 from '../lib/css3.png'
 import Postgres from '../lib/postgresql.png'
 import Boots from '../lib/boots.png'
@@ -20,7 +20,8 @@ import ReduxLogo from '../lib/Redux.png'
 // import Surge from '../lib/surge.png'
 // import Vitelogo from '../lib/vitelogo.png'
 // import Swagger from '../lib/swagger.png'
-import Skills from '../lib/skills.png'
+// import Skills from '../lib/skills.png'
+import Skilss from '../lib/skillss.png'
 const iconslist = [
     {icon: IconReact, name: "React"},
     {icon: ReduxLogo, name: "Redux"},
@@ -41,22 +42,23 @@ const iconslist = [
 ]
 const MySkills = ({myskillsref}) => {
   return (
-    <div className="row exp " ref={myskillsref} >
+    <div className="row py-5 exp " ref={myskillsref} >
             
-            <div className="d-flex align-items-center p-3 my-3 text-white rounded shadow-sm theme-color-border">
-                <img className="me-3" src={Skills} alt={Skills} style={{maxWidth:"40px"}}/>
-
-                <div className="lh-1">
-                <h3 className="mb-0 text-dark lh-1">My Skills</h3>
-                {/* <small>Since 2011</small> */}
-                </div>
-            </div>
-            
+        {/* <div className="col-12 d-flex align-items-center about-row"></div>
+        <div className='container text-center py-5 con-about'></div> */}
+        <div className="text-center">
+            <div className='mx-auto'>
+            <img src={Skilss} alt={Skilss} style={{maxWidth:"60px"}}/>
+            <h4 className='my-2 fw-bold'>My Skills</h4>
+            <div className="line-about my-3"></div>
+          </div>
+          </div>
             {
                 iconslist.map((val)=>(
-                    <div key={val.icon} className="d-flex justify-content-center align-items-center flex-column col-6 col-md-3 mb-3 mb-sm-5 ">
-                    <img src={val.icon} alt={val.icon} style={{maxWidth: '90px'}} />
-                    <p className='pt-2'>{val.name}</p>
+                    <div key={val.icon} className="d-flex justify-content-center align-items-center flex-column col-6 col-md-3 mb-3 mb-sm-5 shadow-sm ">
+                    <img src={val.icon} alt={val.icon} style={{maxWidth: '85px'}} />
+                    <p className='pt-2 fw-bold'>{val.name}</p>
+                    {/* <div class="loader"></div> */}
                     </div>
                 ))
             }

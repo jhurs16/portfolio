@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import MyImage from '../lib/my-image.png'
-
+import Mp from '../lib/mp.png'
 const imgVariants = {
 	hidden: {
 		x: -200
@@ -27,8 +27,8 @@ const Hero = ({homeref, clickAbout, abb}) => {
     <div className="row home-details-container align-items-center home-container" ref={homeref}>
 
 
-			<div className="col-lg-4 bg d-none d-lg-block ">
-				<motion.img src={MyImage} className="img-fluid rounded" style={{maxWidth: '350px'}} alt={MyImage}
+			<div className="col-lg-4 bg d-none d-lg-flex img-cons">
+				<motion.img src={Mp} className="img-fluid rounded" style={{maxWidth: '350px'}} alt={MyImage}
 					variants={imgVariants}
 					initial="hidden"
 					animate="visible"
@@ -38,8 +38,8 @@ const Hero = ({homeref, clickAbout, abb}) => {
 			<div className="col-lg-8 col-12 home-details">
 				<div>
 					<img src="img/banner2.png" className="img-fluid main-img-mobile d-block d-sm-none" alt=""/>
-				<h6 className="text-uppercase open-sans-font mb-0 d-block d-sm-none d-lg-block">hi there !</h6>
-                <h1 className="text-uppercase poppins-font">I'm <span className="typed" data-typed-items="JHURS, DEV OPS, I T SUPPORT">JURIST THOR</span> </h1>
+				<h6 className="text-hero text-uppercase open-sans-font mb-0 d-block d-sm-none d-lg-block">hi there !</h6>
+                <h1 className="text-uppercase poppins-font text-hero">I'm <span className="typed" data-typed-items="JHURS, DEV OPS, I T SUPPORT" style={{color: "#0092d9"}}>JURIST THOR</span> </h1>
                 <motion.p className="open-sans-font"
 					initial={{opacity: 0}}
 					animate={{opacity: 1}}

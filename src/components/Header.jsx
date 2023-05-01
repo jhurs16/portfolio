@@ -1,12 +1,91 @@
 
 // import { motion } from "framer-motion"
+import {useState } from 'react'
 const Header = ({data, data2, ab, ab1, ms, ms1, exp, exp1, por, por1, cont, cont1}) => {
-const clicKME = () =>  data(data2)
-const clicKMEabout = () =>  ab(ab1)
-const clicKMEskills = () =>  ms(ms1)
-const clicKMEexp = () =>  exp(exp1)
-const clicKMEPort = () =>  por(por1)
-const clicKMECont = () =>  cont(cont1)
+
+    const [prev, setPrev ] = useState('.icon-box.home')
+const rmv = (data) => document.querySelector(data).classList.remove('active')
+const addData = (data) => document.querySelector(data).classList.add('active')
+const checkActive = (data) => document.querySelector(data).classList.contains('active')
+const cC = (data) => {
+
+  
+    if(
+        (data === '.icon-box.home' && checkActive(data)) ||
+        (data === '.icon-box.about' && checkActive(data)) ||
+        (data === '.icon-box.skills' && checkActive(data)) || 
+        (data === '.icon-box.exp' && checkActive(data)) ||
+        (data === '.icon-box.portfolio' && checkActive(data)) ||
+        (data === '.icon-box.contact' && checkActive(data)) 
+        ){
+  
+        return
+    }
+    if(
+        (data !== '.icon-box.home' && checkActive(prev)) ||
+        (data !== '.icon-box.about' && checkActive(prev)) ||
+        (data !== '.icon-box.skills' && checkActive(prev)) ||
+        (data !== '.icon-box.exp' && checkActive(prev)) || 
+        (data !== '.icon-box.portfolio' && checkActive(prev)) ||
+        (data !== '.icon-box.contact' && checkActive(prev))
+        ){
+        rmv(prev)
+      
+    }
+    if(
+        (data === '.icon-box.home' && !checkActive(data)) ||
+        (data === '.icon-box.about' && !checkActive(data)) ||
+        (data === '.icon-box.skills' && !checkActive(data))||
+        (data === '.icon-box.exp' && !checkActive(data)) ||
+        (data === '.icon-box.portfolio' && !checkActive(data))||
+        (data === '.icon-box.contact' && !checkActive(data))
+        ){
+        
+        addData(data)
+    }
+    setPrev(data)
+    // if(data === '.icon-box.home') {addData(data)} else{rmv(data)}
+    // if(data === '.icon-box.about') {addData(data)} else{rmv(data)}
+    // data === '.icon-box.home' ? addData(data): rmv(data)
+    // data === '.icon-box.about' ? addData(data): rmv(data)
+    // data === '.icon-box.home' ? rmv(data): addData(data)
+    // data === '.icon-box.home' ? rmv(data): addData(data)
+    // if (!checks.current.classList.contains("active")){
+    //     checks.current.classList.add("active")
+    //     console.log('active')
+    //   } else{
+    //     checks.current.classList.remove("active")
+        
+    //     console.log('inactive')
+    //   }
+      
+}
+const clicKME = () =>  {
+    data(data2);
+    cC('.icon-box.home')
+}
+const clicKMEabout = () => { 
+    ab(ab1);
+    cC('.icon-box.about')
+
+}
+
+const clicKMEskills = () =>  {
+    ms(ms1)
+    cC('.icon-box.skills')
+}
+const clicKMEexp = () =>  {
+    exp(exp1)
+    cC('.icon-box.exp')
+}
+const clicKMEPort = () =>  {
+    por(por1)
+    cC('.icon-box.portfolio')
+}
+const clicKMECont = () =>  {
+    cont(cont1)
+    cC('.icon-box.contact')
+}
   return (
     
     <header className="header " id="navbar-collapse-toggle navbar"
@@ -14,19 +93,19 @@ const clicKMECont = () =>  cont(cont1)
     >
    {/* <!-- Fixed Navigation Starts --> */}
     <ul className="icon-menu d-none d-sm-block revealator-slideup revealator-once revealator-delay1 navbar" id="navbar">
-        <li className="icon-box home" onClick={clicKME} >
+        <li className="icon-box home active" onClick={clicKME} >
             <i className="icofont-home ms-3"></i>
            
                 <h2>Home</h2>
      
         </li>
-        <li className="icon-box about" onClick={clicKMEabout} >
+        <li className="icon-box about"  onClick={clicKMEabout} >
             <i className="icofont-ui-user ms-3"></i>
           
                 <h2>About</h2>
             
         </li>
-        <li className="icon-box exp" onClick={clicKMEskills}>
+        <li className="icon-box skills" onClick={clicKMEskills}>
             <i className="icofont-hand-power ms-3"></i>
             
                 <h2>Skills</h2>

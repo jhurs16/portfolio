@@ -1,15 +1,15 @@
-import Educ from '../lib/educ.png'
+import Educ from '../lib/rules.png'
 const Experience = ({expref}) => {
   return (
-    <div className="row" ref={expref}>
-        <div className="d-flex align-items-center p-3 my-3 text-white rounded shadow-sm theme-color-border">
-    <img className="me-3" src={Educ} alt={Educ} style={{maxWidth:"40px"}}/>
-
-    <div className="lh-1">
-      <h3 className="mb-0 text-dark lh-1">Education,Awards, Experience and Training</h3>
-      {/* <small>Since 2011</small> */}
-    </div>
-  </div>
+    <div className="row py-5" ref={expref}>
+        
+  <div className="text-center">
+            <div className='mx-auto'>
+            <img src={Educ} alt={Educ} style={{maxWidth:"60px"}}/>
+            <h4 className='my-2 fw-bold'>Education, Awards, Experience and Training</h4>
+            <div className="line-educ my-3"></div>
+          </div>
+          </div>
            
             <div className="col-lg-6 m-15px-tb">
                 <div className="resume-box">
