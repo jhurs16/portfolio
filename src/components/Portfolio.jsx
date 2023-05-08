@@ -280,7 +280,7 @@ const Portfolio = ({portref}) => {
                 <img src={Shofy} className="card-img-top img-fluid" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title">Ecommerce: Shofy Clone (Full functional) </h5>
-                    <p className="card-text">Ecommerce Shofy is an HTML and CSS template in themeforest. I clone it using the frontend and backend technology as a fullstack. I convert it in full functional website with payment PAYPAL.I build my own API using Python Django Restframework to use in this project. Also, I used Redux for the state management. 
+                    <p className="card-text">Ecommerce Shofy is an HTML and CSS template in themeforest. I clone it using the frontend and backend technology as a fullstack. I convert it in full functional website with payment PAYPAL.I build my own API using Python Django Restframework to use in this project. I used Redux for the state management. This application handles login and registration using the Django RestAPI and JWT (Json Web Token) to handle the authentication.
                     
                     </p>
                     <br/>
