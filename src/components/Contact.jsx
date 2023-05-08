@@ -18,7 +18,7 @@ export const ContactUs = () => {
 
   return (
 
-     <form className="contactform mt-2" ref={form} onSubmit={sendEmail}>
+     <form className="contactform mt-3" ref={form} onSubmit={sendEmail}>
         <div className="mb-4">
       
       <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Name" name="user_name"/>

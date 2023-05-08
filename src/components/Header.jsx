@@ -9,7 +9,6 @@ const addData = (data) => document.querySelector(data).classList.add('active')
 const checkActive = (data) => document.querySelector(data).classList.contains('active')
 const cC = (data) => {
 
-  
     if(
         (data === '.icon-box.home' && checkActive(data)) ||
         (data === '.icon-box.about' && checkActive(data)) ||
@@ -44,23 +43,10 @@ const cC = (data) => {
         addData(data)
     }
     setPrev(data)
-    // if(data === '.icon-box.home') {addData(data)} else{rmv(data)}
-    // if(data === '.icon-box.about') {addData(data)} else{rmv(data)}
-    // data === '.icon-box.home' ? addData(data): rmv(data)
-    // data === '.icon-box.about' ? addData(data): rmv(data)
-    // data === '.icon-box.home' ? rmv(data): addData(data)
-    // data === '.icon-box.home' ? rmv(data): addData(data)
-    // if (!checks.current.classList.contains("active")){
-    //     checks.current.classList.add("active")
-    //     console.log('active')
-    //   } else{
-    //     checks.current.classList.remove("active")
-        
-    //     console.log('inactive')
-    //   }
+ 
       
 }
-const clicKME = () =>  {
+const clicKME = () =>  { 
     data(data2);
     cC('.icon-box.home')
 }

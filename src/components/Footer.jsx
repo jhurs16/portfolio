@@ -36,7 +36,7 @@ const Footer = ({contref}) => {
                  
                     <i className="icofont-linkedin position-absolute pt-2" style={{color: "#0077B5"}}></i>
                     <div className="mail">
-                    	<span className="d-block ">profile link</span>
+                    	<span className="d-block pt-2">profile link</span>
                         <a href="https://www.linkedin.com/in/jurist-thor-magsayo-b7116522a" target="_blank" rel="noreferrer" className="link-info">my profile</a>
                     </div>
                      

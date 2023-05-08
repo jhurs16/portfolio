@@ -70,7 +70,8 @@ const Portfolio = ({portref}) => {
                     <div className="card-text" >
                         Worked as a Software Developer for (1) one year, my daily activities and duties are:
                         <ul className="list-group" style={{fontSize: '14px'}}>
-                        1. Works on HRMS project.
+                        
+                        <li className="list-group-item"><span className='text-bold'>1.</span> Works on HRMS project.</li>
                         <li className="list-group-item"><span className='text-bold'>2.</span> Attend Scrum Meetings and Sprint planning.</li>
                         
                         <li className="list-group-item">3. Works on Agile Development and collaborations with the team.</li>
@@ -279,7 +280,7 @@ const Portfolio = ({portref}) => {
                 <img src={Shofy} className="card-img-top img-fluid" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title">Ecommerce: Shofy Clone (Full functional) </h5>
-                    <p className="card-text">Ecommerce Shofy is an HTML and CSS template in themeforest. I clone it using the frontend and backend technology as a fullstack. I convert it in full functional website with payment PAYPAL.I build my own API using Python Django Restframework to use in this project.It is still in progress and I will deploy it sooner.</p>
+                    <p className="card-text">Ecommerce Shofy is an HTML and CSS template in themeforest. I clone it using the frontend and backend technology as a fullstack. I convert it in full functional website with payment PAYPAL.I build my own API using Python Django Restframework to use in this project.</p>
                     <p>Tools used: </p>
                     <div className="d-flex flex-wrap">
                    <ToolsComponent icon={IconReact}/>
@@ -299,7 +300,9 @@ const Portfolio = ({portref}) => {
                    
                     </div>
                     {/* <a href="http://jhurs-tictactoe-vite-react.surge.sh/" target='_blank' rel='noreferrer' className="btn btn-primary btn-sm mt-2">In Progress</a> */}
-                    <button className="btn btn-primary btn-sm mt-2" disabled>In Progress</button>
+                    {/* https://jhurs16.github.io/ecommerce-react/ */}
+                    {/* <button className="btn btn-primary btn-sm mt-2" disabled>In Progress</button> */}
+                    <a href="https://jhurs16.github.io/ecommerce-react/" target='_blank' rel='noreferrer' className="btn btn-primary btn-sm mt-2">View Live</a>
                 </div>
             </div>
          
