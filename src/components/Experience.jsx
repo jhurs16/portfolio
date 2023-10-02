@@ -97,7 +97,19 @@ Dennis Ivy.</h5>
                             </p>
                             <a href="https://skl.sh/3ZCXsK1" target="_blank" rel="noreferrer">SkillShare Certificate</a>
                         </li>
-                       
+                        <li>
+                            <div className="icon">
+                                <i className="icofont-graduate"></i>
+                            </div>
+                            <span className="time open-sans-font text-uppercase">2023</span>
+                            <h5 className="poppins-font text-uppercase">Node.js, Express, MongoDB & More: The Complete Bootcamp 2023</h5>
+                            <p className="open-sans-font text-muted">Jonas Schmedtmann </p>
+                            <p className="open-sans-font">
+                                
+                            Trained and Learned this course for three months and build a MERN Stack project.
+                            </p>
+                             
+                        </li>
                     </ul>
                 </div>
             </div>

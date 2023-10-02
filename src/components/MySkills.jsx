@@ -7,8 +7,7 @@ import Stcomp from '../lib/styled.png'
 import JSlogo from '../lib/jslogo.png'
 import Flogo from '../lib/flectra2.png'
 import Gtlogo from '../lib/gitlogo.png'
-// import Tanstcklogo from '../lib/tanstack.png'
-// import Chakralogo from '../lib/chakraui.png'
+ 
 import Pylogo from '../lib/pylogo.png'
 import Djangologo from '../lib/djangologo.png'
 import Djangorestlogo from '../lib/djangorest.png'
@@ -17,11 +16,12 @@ import ErpnextLogo from '../lib/erpnext-logo.png'
 // import RouterReact from '../lib/react-router-dom.png'
 import Gitlogo from '../lib/github.png'
 import ReduxLogo from '../lib/Redux.png'
-// import Surge from '../lib/surge.png'
-// import Vitelogo from '../lib/vitelogo.png'
-// import Swagger from '../lib/swagger.png'
-// import Skills from '../lib/skills.png'
+import RtkQuery from '../lib/rtk-query.png'
 import Skilss from '../lib/skillss.png'
+import ExpressJS from '../lib/expressjs.png'
+import NodeJS from '../lib/nodejs.png'
+import TailwindCSS from '../lib/tailwind-css.png'
+
 const iconslist = [
     {icon: IconReact, name: "React"},
     {icon: ReduxLogo, name: "Redux"},
@@ -38,7 +38,11 @@ const iconslist = [
     {icon: Djangorestlogo, name: "Django RestFramework"},
     {icon: FigmaLogo, name: "Figma"},
     {icon: ErpnextLogo, name: "ERPNext"},
-    {icon: Gitlogo, name: "GitHub"}
+    {icon: Gitlogo, name: "GitHub"},
+    {icon: RtkQuery, name: "RTK Query"},
+    {icon: ExpressJS, name: "ExpressJS"},
+    {icon: NodeJS, name: "NodeJS"},
+    {icon: TailwindCSS, name: "Tailwind CSS"},
 ]
 const MySkills = ({myskillsref}) => {
   return (

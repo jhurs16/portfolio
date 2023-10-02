@@ -28,10 +28,10 @@ jhurs css portfolio @ 2021
   
   .about-row{
     
-    background-image: url('../lib/green.png');
+    /* background-image: url('../lib/green.png');
     background-repeat: no-repeat;
     
-    background-position: center;
+    background-position: center; */
   }
   .about-row .con-about {
     background-color: rgb(240, 240, 240, 0.2);

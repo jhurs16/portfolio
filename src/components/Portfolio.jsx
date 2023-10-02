@@ -30,7 +30,12 @@ import Gitlab from '../lib/gitlab.png'
 import ErpnextLogo from '../lib/erpnext-logo.png'
 import FlectraSs from '../lib/flectra-ss.png'
 import ErpSs from '../lib/erpnext-ss.png'
-
+import PmdocsDnd from '../lib/pmdocs-dnd.jpg'
+import RtkQuery from '../lib/rtk-query.png'
+import ExpressJS from '../lib/expressjs.png'
+import NodeJS from '../lib/nodejs.png'
+import TailwindCSS from '../lib/tailwind-css.png'
+import MongoDb from '../lib/mongo-db.png'
 const ToolsComponent = ({icon}) => {
     return (
         <div className="p-2">
@@ -82,7 +87,7 @@ const Portfolio = ({portref}) => {
                         <li className="list-group-item">8. Used Ubuntu Linux for the project environment, coded in Python, and Flectra, and did testing before pushing the code and changes.</li>
                         </ul>
                     </div>
-                    <p className='mt-2'>Tools used: </p>
+                    <p className='mt-2'>Technology used: </p>
                     <div className="d-flex flex-wrap">
                    <ToolsComponent icon={Flec}/>
                    <ToolsComponent icon={Pylogo}/>
@@ -109,7 +114,7 @@ const Portfolio = ({portref}) => {
                         <li className="list-group-item">6. Deploy the Code in Production.</li>
                         </ul>
                     </div>
-                    <p className='mt-2'>Tools used: </p>
+                    <p className='mt-2'>Technology used: </p>
                     <div className="d-flex flex-wrap">
                    <ToolsComponent icon={ErpnextLogo}/>
                    <ToolsComponent icon={Pylogo}/>
@@ -127,6 +132,54 @@ const Portfolio = ({portref}) => {
 				    
 			  </div>	
               
+		</div>
+        <div className="container shadow mt-5" style={{outline: "#e9e9e9 solid 1px"}}>
+            <div className="col-12 text-center "  >
+       
+                <h3 className="alert text-uppercase py-3 text-left text-sm-center custom-title fw-bold">
+                    MY PERSONAL MERN STACK PROJECT
+                </h3>
+                {/* <div className="line-educ2"></div> */}
+            </div>
+			  <div className="row img-gal mb-0 d-flex align-item-center justify-content-center">
+              <div className="card p-0 mx-2 my-3 shadow-lg rounded" style={{width: '30rem'}}>
+                <img src={PmdocsDnd} className="card-img-top img-fluid" alt={PmdocsDnd}/>
+                
+            </div>
+            <div className="card p-0 my-3 shadow-lg rounded" style={{width: '30rem'}}>
+                 
+                <div className="card-body ">
+                    <h5 className="card-title fw-bold">Project Management Documentation Drag and Drop</h5>
+                    <p className="card-text">PMDoc's DnD is a documentation platform that can be used to manage and document your project's. It is a valuable tool for both programmers and non-technical individuals. This web application is highly customizable and can be easily shared with your team.!
+                    
+                    </p>
+                    <p className="card-text">I believe this is a unique project I built to showcase my skills. This project built in MERN Stack.
+                    
+                    </p>
+                    <p>Tools used: </p>
+                    <div className="d-flex flex-wrap">
+                    {/* RtkQuery ExpressJS NodeJS TailwindCSS */}
+                   <ToolsComponent icon={IconReact}/>
+                   <ToolsComponent icon={HtmlIcon}/>
+                   <ToolsComponent icon={JSlogo}/>
+                   <ToolsComponent icon={RtkQuery}/>
+                   <ToolsComponent icon={RouterReact}/>
+                   <ToolsComponent icon={Gitlogo}/>
+                   <ToolsComponent icon={TailwindCSS}/>
+                   <ToolsComponent icon={ExpressJS}/>
+                   <ToolsComponent icon={NodeJS}/>
+                   <ToolsComponent icon={Css3}/>
+                   <ToolsComponent icon={MongoDb}/>
+                    </div>
+                    {/* https://juristthor.pythonanywhere.com/api/schema/docs/ */}
+
+                    <a href="https://pmdocsdnd.onrender.com/" target='_blank' rel='noreferrer' className="btn btn-primary btn-sm mt-2">View Live</a>
+                </div>
+            </div>
+			
+           
+				    
+			  </div>	
 		</div>
         {/* bg-light */}
             <div className="container shadow mt-5" style={{outline: "#e9e9e9 solid 1px"}}>
@@ -236,90 +289,12 @@ const Portfolio = ({portref}) => {
                 </div>
             </div>
 			
-            <div className="card p-0 mx-4 my-3 shadow-lg rounded" style={{width: '25rem'}}>
-                <img src={SocialChefClone} className="card-img-top img-fluid" alt="..."/>
-                <div className="card-body">
-                    <h5 className="card-title">Social Chef Home Page Clone</h5>
-                    <div className="card-text">Simple SocialChef clone in React and use my personal Django Restframework API for other images and data.
-                    If you want to view my simple REST API Documentation with Swagger click this link:
-                    <a href="https://juristthor.pythonanywhere.com/api/schema/docs/ " target='_blank' rel='noreferrer' > REST API</a>
-                    </div>
-                    <p>Tools used: </p>
-                    <div className="d-flex flex-wrap">
-                   <ToolsComponent icon={IconReact}/>
-                   <ToolsComponent icon={HtmlIcon}/>
-                   <ToolsComponent icon={JSlogo}/>
-                   <ToolsComponent icon={RouterReact}/>
-                   <ToolsComponent icon={Gitlogo}/>
-                   <ToolsComponent icon={Tanstcklogo}/>
-                   <ToolsComponent icon={Css3}/>
-                   <ToolsComponent icon={Pylogo}/>
-                   <ToolsComponent icon={Djangologo}/>
-                   <ToolsComponent icon={Djangorestlogo}/>
-                   <ToolsComponent icon={Swagger}/>
-                    </div>
-                    <a href="https://jhurs16.github.io/socialchef-clone-homepage/" target='_blank' rel='noreferrer' className="btn btn-primary btn-sm mt-2">View Live</a>
-                </div>
-            </div>
-				  
+           
 				    
 			  </div>	
 		</div>
-        <div className="container shadow mt-5" style={{outline: "#e9e9e9 solid 1px"}}>
-            <div className="col-12 text-center "  >
        
-                <h3 className="alert text-uppercase py-3 text-left text-sm-center custom-title fw-bold">
-                    MY FULLSTACK PROJECT/S
-                </h3>
-                {/* <div className="line-educ2"></div> */}
-            </div>
-   
-			  <div className="row img-gal mb-4  d-flex align-item-center justify-content-center ">
-            
-              <div className="card p-0 mx-4 my-3 shadow-lg rounded" style={{width: '25rem'}}>
-                <img src={Shofy} className="card-img-top img-fluid" alt="..."/>
-                <div className="card-body">
-                    <h5 className="card-title">Ecommerce: Shofy Clone (Full functional) </h5>
-                    <p className="card-text">Ecommerce Shofy is an HTML and CSS template in themeforest. I clone it using the frontend and backend technology as a fullstack. I convert it in full functional website with payment PAYPAL.I build my own API using Python Django Restframework to use in this project. I used Redux for the state management. This application handles login and registration using the Django RestAPI and JWT (Json Web Token) to handle the authentication.
-                    
-                    </p>
-                    <br/>
-                    <div>
-                        View the API DOCS here using Swagger: 
-                    <a href="https://jhurss.pythonanywhere.com/api/schema/docs/ " target='_blank' rel='noreferrer' > REST API</a>
-                    </div>
-                    <p>Tools used: </p>
-                    <div className="d-flex flex-wrap">
-                   <ToolsComponent icon={IconReact}/>
-                   <ToolsComponent icon={ReduxLogo}/>
-                   <ToolsComponent icon={Bts}/>
-                   <ToolsComponent icon={HtmlIcon}/>
-                   <ToolsComponent icon={Css3}/>
-                    <ToolsComponent icon={Gitlogo}/>
-                   <ToolsComponent icon={JSlogo}/>
-                
-                   <ToolsComponent icon={RouterReact}/>
-                  
-                   <ToolsComponent icon={Pylogo}/>
-                   <ToolsComponent icon={Djangologo}/>
-                   <ToolsComponent icon={Djangorestlogo}/>
-                   <ToolsComponent icon={Swagger}/>
-                   
-                    </div>
-                    {/* <a href="http://jhurs-tictactoe-vite-react.surge.sh/" target='_blank' rel='noreferrer' className="btn btn-primary btn-sm mt-2">In Progress</a> */}
-                    {/* https://jhurs16.github.io/ecommerce-react/ */}
-                    {/* <button className="btn btn-primary btn-sm mt-2" disabled>In Progress</button> */}
-                    <a href="https://jhurs16.github.io/ecommerce-react/" target='_blank' rel='noreferrer' className="btn btn-primary btn-sm mt-2">View Live</a>
-                </div>
-            </div>
-         
-			
-			   
-				  
-				    
-			  </div>	
-              
-		</div>
+ 
         
    
 </div>
