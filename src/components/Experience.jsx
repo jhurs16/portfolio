@@ -29,7 +29,7 @@ const Experience = ({expref}) => {
                             <span className="time open-sans-font text-uppercase">2022 - 2023</span>
                             <h5 className="poppins-font text-uppercase">Junior Software Engineer<span className="place open-sans-font">INFOSHIFT INC.</span></h5>
                             <p className="open-sans-font">
-                                Worked on ERPNext CMS for human resource management system. Worked on customization of frontend and backend tasks.  
+                                Worked on Python Django (Django RestFramework API) and ERPNext CMS for human resource management system. Worked on customization of frontend and backend tasks.  
                             </p>
                         </li>
                         <li>

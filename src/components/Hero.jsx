@@ -33,9 +33,14 @@ const Hero = ({homeref, clickAbout, abb}) => {
 					<img src="img/banner2.png" className="img-fluid main-img-mobile d-block d-sm-none" alt=""/>
 				<h6 className="text-hero text-uppercase open-sans-font mb-0 d-block d-sm-none d-lg-block">hi there !</h6>
                 <h1 className="text-uppercase poppins-font text-hero">I'm <span className="typed" data-typed-items="JHURS, DEV OPS, I T SUPPORT" style={{color: "#0092d9"}}>JURIST THOR</span> </h1>
-                <p className="open-sans-font fw-bolder "
-					style={{color: "#272727"}}
-				>I have 1 year and 9 months of experience in the industry. During my first year, I worked as a Software Developer, and in the following 9 months, I gained experience as a Software Engineer. Afterward, I dedicated 5 months to upskilling in MERN Stack technology, and used this to create a unique portfolio to showcase my skills. </p>
+                <p className="open-sans-font "
+					
+				>I have almost two years of experience in the industry. In my first
+				year, I worked as a software developer, and in the other year, I
+				worked as a software engineer, working on ERP systems and
+				Python Django application. Both are using Python and
+				PostgreSQL.
+				 </p>
                 <button className="btn btn-primary mt-5" onClick={clickHere}
 				
 					

@@ -109,9 +109,10 @@ const Portfolio = ({portref}) => {
                         <li className="list-group-item"><span className='text-bold'>1.</span> Attend Scrum Meetings and Sprint planning.</li>
                         <li className="list-group-item">2. Check the JIRA for tasks and other tickets.</li>
                         <li className="list-group-item">3. Debug higher to lower level bugs.</li>
-                        <li className="list-group-item">4. Customizing modules, working on improvements and automation.</li>
-                        <li className="list-group-item">5. Code in Python, JavaScript and used GUI of ERPNext to add features and customization.</li>
-                        <li className="list-group-item">6. Deploy the Code in Production.</li>
+                        <li className="list-group-item">4. Tested Python Django Rest API.</li>
+                        <li className="list-group-item">5. Customizing modules, working on improvements and automation.</li>
+                        <li className="list-group-item">6. Code in Python, JavaScript and used GUI of ERPNext to add features and customization.</li>
+                        <li className="list-group-item">7. Deploy the Code in Production.</li>
                         </ul>
                     </div>
                     <p className='mt-2'>Technology used: </p>
