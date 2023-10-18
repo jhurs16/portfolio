@@ -121,7 +121,9 @@ const Portfolio = ({portref}) => {
                    <ToolsComponent icon={Pylogo}/>
                    <ToolsComponent icon={Ubuntu}/>
                    <ToolsComponent icon={JSlogo}/>
-                   
+                   <ToolsComponent icon={Djangologo}/>
+                   <ToolsComponent icon={Djangorestlogo}/>
+ 
                    
                     </div>
                     {/* <a href="https://jhurs16.github.io/socialchef-clone-homepage/" target='_blank' rel='noreferrer' className="btn btn-primary btn-sm mt-2">View Live</a> */}
